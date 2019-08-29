@@ -5,7 +5,8 @@ body{
 
 main{
     display: grid;
-    justify-content: center;
+    align-content: center;
+    justify-items: center;
 }
  
 
@@ -28,7 +29,7 @@ button{
 
 
 button:active {
-    background-color:goldenrod;
+    background-color:grey;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
@@ -50,7 +51,8 @@ button:active {
     background:rgb(156, 7, 243);
 }
 #webcam{
-    border-color: goldenrod;
+    border: solid black;
+    margin-bottom:2em;
 }
 
 @media screen and (min-width: 480px) {
